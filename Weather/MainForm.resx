@@ -1,0 +1,889 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="weatherDayMore8.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;weatherDay5.Name" xml:space="preserve">
+    <value>weatherDay5</value>
+  </data>
+  <data name="&gt;&gt;weatherDayMore2.Type" xml:space="preserve">
+    <value>Weather.WeatherDayMore, Weather, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="weatherDayMore6.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>973, 37</value>
+  </data>
+  <data name="weatherDay6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>707, 41</value>
+  </data>
+  <data name="buttonWCN.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="weatherDay6.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>131, 261</value>
+  </data>
+  <data name="weatherDay4.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="weatherDay6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="buttonSearch.Text" xml:space="preserve">
+    <value>查询</value>
+  </data>
+  <data name="&gt;&gt;weatherDayMore7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;weatherDayMore1.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;weatherDayMore5.Name" xml:space="preserve">
+    <value>weatherDayMore5</value>
+  </data>
+  <data name="&gt;&gt;weatherDayMore3.Type" xml:space="preserve">
+    <value>Weather.WeatherDayMore, Weather, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="weatherDayMore2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>973, 37</value>
+  </data>
+  <data name="buttonCustom.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="weatherDayMore1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>973, 37</value>
+  </data>
+  <data name="weatherDayMore2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 355</value>
+  </data>
+  <data name="&gt;&gt;weatherDay7.Type" xml:space="preserve">
+    <value>Weather.WeatherDay, Weather, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="statusStrip.Text" xml:space="preserve">
+    <value>statusStrip1</value>
+  </data>
+  <data name="&gt;&gt;lblStatus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonAbout.Text" xml:space="preserve">
+    <value>关于</value>
+  </data>
+  <data name="weatherDay5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 261</value>
+  </data>
+  <data name="&gt;&gt;weatherDayMore8.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="weatherDayMore7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>973, 37</value>
+  </data>
+  <data name="&gt;&gt;weatherDay5.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;weatherDayMore6.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="toolStrip.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="weatherDay3.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>131, 261</value>
+  </data>
+  <data name="&gt;&gt;lblStatus.Name" xml:space="preserve">
+    <value>lblStatus</value>
+  </data>
+  <data name="weatherDay1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>天气预报</value>
+  </data>
+  <data name="&gt;&gt;weatherDayMore1.Type" xml:space="preserve">
+    <value>Weather.WeatherDayMore, Weather, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;weatherDay6.Name" xml:space="preserve">
+    <value>weatherDay6</value>
+  </data>
+  <data name="weatherDayMore8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 625</value>
+  </data>
+  <data name="buttonWCN.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 28</value>
+  </data>
+  <data name="weatherDay1.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>131, 261</value>
+  </data>
+  <data name="buttonAbout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 26</value>
+  </data>
+  <data name="weatherDayMore4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>973, 37</value>
+  </data>
+  <data name="&gt;&gt;comboBoxProvince.Name" xml:space="preserve">
+    <value>comboBoxProvince</value>
+  </data>
+  <data name="weatherDayMore1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 310</value>
+  </data>
+  <data name="&gt;&gt;weatherDay2.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;weatherDayMore1.Name" xml:space="preserve">
+    <value>weatherDayMore1</value>
+  </data>
+  <data name="&gt;&gt;weatherDay7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;weatherDayMore7.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;weatherDayMore2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 15</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="weatherDay2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="&gt;&gt;weatherDayMore8.Name" xml:space="preserve">
+    <value>weatherDayMore8</value>
+  </data>
+  <data name="weatherDay5.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>131, 261</value>
+  </data>
+  <data name="weatherDayMore4.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>973, 37</value>
+  </data>
+  <data name="weatherDayMore3.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="weatherDayMore2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="weatherDay3.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>131, 261</value>
+  </data>
+  <data name="weatherDayMore1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="weatherDay7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="comboBoxDistrict.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 28</value>
+  </data>
+  <data name="&gt;&gt;weatherDay3.Name" xml:space="preserve">
+    <value>weatherDay3</value>
+  </data>
+  <data name="&gt;&gt;weatherDayMore6.Name" xml:space="preserve">
+    <value>weatherDayMore6</value>
+  </data>
+  <data name="weatherDay5.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>131, 261</value>
+  </data>
+  <data name="&gt;&gt;weatherDayMore3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;comboBoxCity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonAbout.Name" xml:space="preserve">
+    <value>buttonAbout</value>
+  </data>
+  <data name="weatherDay7.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>131, 261</value>
+  </data>
+  <data name="weatherDay1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="&gt;&gt;comboBoxProvince.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="weatherDay7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>847, 41</value>
+  </data>
+  <data name="&gt;&gt;weatherDayMore4.Type" xml:space="preserve">
+    <value>Weather.WeatherDayMore, Weather, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="weatherDay3.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="weatherDay4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 261</value>
+  </data>
+  <data name="weatherDay3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 261</value>
+  </data>
+  <data name="weatherDayMore6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>973, 37</value>
+  </data>
+  <data name="&gt;&gt;toolStrip.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;weatherDay4.Name" xml:space="preserve">
+    <value>weatherDay4</value>
+  </data>
+  <data name="&gt;&gt;weatherDayMore7.Name" xml:space="preserve">
+    <value>weatherDayMore7</value>
+  </data>
+  <data name="weatherDay1.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>131, 261</value>
+  </data>
+  <data name="weatherDay4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>427, 41</value>
+  </data>
+  <data name="weatherDay1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 261</value>
+  </data>
+  <data name="lblVerson.Text" xml:space="preserve">
+    <value>版本</value>
+  </data>
+  <data name="&gt;&gt;weatherDayMore2.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lblVerson.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 20</value>
+  </data>
+  <data name="weatherDayMore2.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>973, 37</value>
+  </data>
+  <data name="&gt;&gt;weatherDayMore5.Type" xml:space="preserve">
+    <value>Weather.WeatherDayMore, Weather, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="weatherDayMore5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 490</value>
+  </data>
+  <data name="&gt;&gt;weatherDay3.Type" xml:space="preserve">
+    <value>Weather.WeatherDay, Weather, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="weatherDay6.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>131, 261</value>
+  </data>
+  <data name="buttonWCN.Text" xml:space="preserve">
+    <value>天气数据来自于 中国天气网</value>
+  </data>
+  <data name="&gt;&gt;buttonWCN.Name" xml:space="preserve">
+    <value>buttonWCN</value>
+  </data>
+  <data name="&gt;&gt;buttonWCN.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="weatherDayMore7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="&gt;&gt;buttonCustom.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripDropDownButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblVerson.Name" xml:space="preserve">
+    <value>lblVerson</value>
+  </data>
+  <data name="lblStatus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>925, 20</value>
+  </data>
+  <data name="&gt;&gt;weatherDayMore3.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;weatherDay7.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="buttonWCN.ToolTipText" xml:space="preserve">
+    <value>Weather.com.cn</value>
+  </data>
+  <data name="weatherDayMore8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>973, 37</value>
+  </data>
+  <data name="&gt;&gt;weatherDay1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="weatherDay6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 261</value>
+  </data>
+  <data name="&gt;&gt;weatherDay4.Type" xml:space="preserve">
+    <value>Weather.WeatherDay, Weather, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="weatherDayMore5.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>973, 37</value>
+  </data>
+  <data name="&gt;&gt;weatherDay3.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="weatherDay4.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>131, 261</value>
+  </data>
+  <data name="&gt;&gt;weatherDayMore2.Name" xml:space="preserve">
+    <value>weatherDayMore2</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="weatherDayMore2.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>973, 37</value>
+  </data>
+  <data name="weatherDayMore1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainForm</value>
+  </data>
+  <data name="&gt;&gt;buttonAbout.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBoxCity.Name" xml:space="preserve">
+    <value>comboBoxCity</value>
+  </data>
+  <data name="&gt;&gt;weatherDayMore6.Type" xml:space="preserve">
+    <value>Weather.WeatherDayMore, Weather, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;weatherDay3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="weatherDay2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>147, 41</value>
+  </data>
+  <data name="&gt;&gt;weatherDayMore4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="buttonAbout.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="weatherDayMore4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="&gt;&gt;weatherDay5.Type" xml:space="preserve">
+    <value>Weather.WeatherDay, Weather, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="buttonCustom.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
+        dAAAEnQB3mYfeAAAAgNJREFUOE+lkutLk2EYxvePhJaHShFBUTEPiCieQOmDiEZgrEbpYGiCQxkqA80I
+        RUkUEZ0YRMS+DDI70MkTmzJnDc8iU8QT2mAEItnle90wHwTDyBduXnie5/rd133Q4ZKfAJqHFs9E08A8
+        zD1emDpmYXjqRlnTFIrMk8iuGkNaxWekGEaQrHecBfw+/vPXODw6hj9whN2fh/Bt/8LSRgA3cxr/DeBZ
+        9kvmTNMoHGNbIrYN+3Aj23IxgJkpds0doP3VstgmsNexhutZ9QrAms8T0zYzU5xXM46kcjsmvfvoeL2i
+        AeoUgA07T8yaaZuZKab1rzN74jgys1YB2O2gmBZzH49LODXrrJlnzEzxe9cOLH1ziMioVgCOiuIFX0CE
+        Q+/WYf+yieiCFrRp9tkwxnP7Kt5MbKGm6wfC000KwDlTXNLgEvHMkh+Db32o7fYivtQm1l9+3IBOp5P7
+        yjYPwlKNCsAluWudxgvtknb5t9oWcL/VLU2Mvd2JFq3uqs7vAtE/ceNayiMF4KiYMSjmY2O7B4Ua+NaD
+        YQGEJumRbvyG1IcfBHI12aAAXM8R57aIWTNrLLY4tfNPiCvpR1SeVeu6WWzHFD6THSDwFMDdpmUG62NJ
+        PKM4Or9ZxBxb8H8l7g5CEu8pAOfM3WanSeeS8CFHxW4zM2umbWamOCShXAH+/wNOANABIDUxWnDPAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="weatherDay7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 261</value>
+  </data>
+  <data name="&gt;&gt;weatherDayMore3.Name" xml:space="preserve">
+    <value>weatherDayMore3</value>
+  </data>
+  <data name="weatherDayMore3.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>973, 37</value>
+  </data>
+  <data name="&gt;&gt;weatherDay1.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="statusStrip.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="weatherDay2.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>131, 261</value>
+  </data>
+  <data name="weatherDay4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="comboBoxProvince.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 28</value>
+  </data>
+  <data name="weatherDayMore7.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>973, 37</value>
+  </data>
+  <data name="&gt;&gt;weatherDayMore5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;weatherDay1.Type" xml:space="preserve">
+    <value>Weather.WeatherDay, Weather, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="buttonSearch.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
+        dAAAEnQB3mYfeAAAAgNJREFUOE+lkutLk2EYxvePhJaHShFBUTEPiCieQOmDiEZgrEbpYGiCQxkqA80I
+        RUkUEZ0YRMS+DDI70MkTmzJnDc8iU8QT2mAEItnle90wHwTDyBduXnie5/rd133Q4ZKfAJqHFs9E08A8
+        zD1emDpmYXjqRlnTFIrMk8iuGkNaxWekGEaQrHecBfw+/vPXODw6hj9whN2fh/Bt/8LSRgA3cxr/DeBZ
+        9kvmTNMoHGNbIrYN+3Aj23IxgJkpds0doP3VstgmsNexhutZ9QrAms8T0zYzU5xXM46kcjsmvfvoeL2i
+        AeoUgA07T8yaaZuZKab1rzN74jgys1YB2O2gmBZzH49LODXrrJlnzEzxe9cOLH1ziMioVgCOiuIFX0CE
+        Q+/WYf+yieiCFrRp9tkwxnP7Kt5MbKGm6wfC000KwDlTXNLgEvHMkh+Db32o7fYivtQm1l9+3IBOp5P7
+        yjYPwlKNCsAluWudxgvtknb5t9oWcL/VLU2Mvd2JFq3uqs7vAtE/ceNayiMF4KiYMSjmY2O7B4Ua+NaD
+        YQGEJumRbvyG1IcfBHI12aAAXM8R57aIWTNrLLY4tfNPiCvpR1SeVeu6WWzHFD6THSDwFMDdpmUG62NJ
+        PKM4Or9ZxBxb8H8l7g5CEu8pAOfM3WanSeeS8CFHxW4zM2umbWamOCShXAH+/wNOANABIDUxWnDPAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="weatherDayMore1.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>973, 37</value>
+  </data>
+  <data name="&gt;&gt;weatherDay6.Type" xml:space="preserve">
+    <value>Weather.WeatherDay, Weather, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="buttonSearch.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="toolStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>984, 31</value>
+  </data>
+  <data name="weatherDayMore6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="&gt;&gt;lblVerson.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="weatherDayMore5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="weatherDay5.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="weatherDay2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 261</value>
+  </data>
+  <data name="weatherDayMore7.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>973, 37</value>
+  </data>
+  <data name="&gt;&gt;weatherDay5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;weatherDayMore4.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;buttonCustom.Name" xml:space="preserve">
+    <value>buttonCustom</value>
+  </data>
+  <data name="statusStrip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 670</value>
+  </data>
+  <data name="weatherDayMore5.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblStatus.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomLeft</value>
+  </data>
+  <data name="weatherDayMore3.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>973, 37</value>
+  </data>
+  <data name="weatherDayMore3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>973, 37</value>
+  </data>
+  <data name="&gt;&gt;toolStrip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonAbout.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
+        dAAAEnQB3mYfeAAAAgNJREFUOE+lkutLk2EYxvePhJaHShFBUTEPiCieQOmDiEZgrEbpYGiCQxkqA80I
+        RUkUEZ0YRMS+DDI70MkTmzJnDc8iU8QT2mAEItnle90wHwTDyBduXnie5/rd133Q4ZKfAJqHFs9E08A8
+        zD1emDpmYXjqRlnTFIrMk8iuGkNaxWekGEaQrHecBfw+/vPXODw6hj9whN2fh/Bt/8LSRgA3cxr/DeBZ
+        9kvmTNMoHGNbIrYN+3Aj23IxgJkpds0doP3VstgmsNexhutZ9QrAms8T0zYzU5xXM46kcjsmvfvoeL2i
+        AeoUgA07T8yaaZuZKab1rzN74jgys1YB2O2gmBZzH49LODXrrJlnzEzxe9cOLH1ziMioVgCOiuIFX0CE
+        Q+/WYf+yieiCFrRp9tkwxnP7Kt5MbKGm6wfC000KwDlTXNLgEvHMkh+Db32o7fYivtQm1l9+3IBOp5P7
+        yjYPwlKNCsAluWudxgvtknb5t9oWcL/VLU2Mvd2JFq3uqs7vAtE/ceNayiMF4KiYMSjmY2O7B4Ua+NaD
+        YQGEJumRbvyG1IcfBHI12aAAXM8R57aIWTNrLLY4tfNPiCvpR1SeVeu6WWzHFD6THSDwFMDdpmUG62NJ
+        PKM4Or9ZxBxb8H8l7g5CEu8pAOfM3WanSeeS8CFHxW4zM2umbWamOCShXAH+/wNOANABIDUxWnDPAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="weatherDay5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="&gt;&gt;comboBoxDistrict.Name" xml:space="preserve">
+    <value>comboBoxDistrict</value>
+  </data>
+  <data name="&gt;&gt;weatherDay4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;statusStrip.Name" xml:space="preserve">
+    <value>statusStrip</value>
+  </data>
+  <data name="&gt;&gt;statusStrip.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;weatherDay6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="weatherDayMore8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="weatherDay2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="weatherDayMore8.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>973, 37</value>
+  </data>
+  <data name="&gt;&gt;weatherDayMore5.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="weatherDayMore5.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>973, 37</value>
+  </data>
+  <data name="&gt;&gt;weatherDayMore8.Type" xml:space="preserve">
+    <value>Weather.WeatherDayMore, Weather, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;comboBoxDistrict.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="weatherDay2.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>131, 261</value>
+  </data>
+  <data name="statusStrip.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 0, 19, 0</value>
+  </data>
+  <data name="buttonCustom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 26</value>
+  </data>
+  <data name="&gt;&gt;weatherDay1.Name" xml:space="preserve">
+    <value>weatherDay1</value>
+  </data>
+  <data name="weatherDay1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 41</value>
+  </data>
+  <data name="toolStrip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="comboBoxCity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 28</value>
+  </data>
+  <data name="&gt;&gt;toolStrip.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="weatherDayMore3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 400</value>
+  </data>
+  <data name="buttonSearch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 26</value>
+  </data>
+  <data name="weatherDay4.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>131, 261</value>
+  </data>
+  <data name="weatherDayMore4.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="weatherDayMore2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="weatherDay7.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="weatherDay3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>287, 41</value>
+  </data>
+  <data name="&gt;&gt;statusStrip.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;weatherDay4.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="buttonCustom.Text" xml:space="preserve">
+    <value>定制</value>
+  </data>
+  <data name="&gt;&gt;weatherDayMore4.Name" xml:space="preserve">
+    <value>weatherDayMore4</value>
+  </data>
+  <data name="&gt;&gt;weatherDay2.Type" xml:space="preserve">
+    <value>Weather.WeatherDay, Weather, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="weatherDayMore8.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>973, 37</value>
+  </data>
+  <data name="&gt;&gt;weatherDay2.Name" xml:space="preserve">
+    <value>weatherDay2</value>
+  </data>
+  <data name="weatherDayMore3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="weatherDayMore4.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>973, 37</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>984, 696</value>
+  </data>
+  <data name="weatherDay6.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;weatherDayMore7.Type" xml:space="preserve">
+    <value>Weather.WeatherDayMore, Weather, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="weatherDayMore5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>973, 37</value>
+  </data>
+  <data name="&gt;&gt;weatherDay7.Name" xml:space="preserve">
+    <value>weatherDay7</value>
+  </data>
+  <data name="weatherDayMore1.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>973, 37</value>
+  </data>
+  <data name="weatherDayMore6.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="weatherDayMore7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 580</value>
+  </data>
+  <data name="&gt;&gt;toolStrip.Name" xml:space="preserve">
+    <value>toolStrip</value>
+  </data>
+  <data name="weatherDay5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>567, 41</value>
+  </data>
+  <data name="weatherDay3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="&gt;&gt;weatherDayMore1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;statusStrip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.StatusStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="weatherDayMore7.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="weatherDayMore4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 445</value>
+  </data>
+  <data name="toolStrip.Text" xml:space="preserve">
+    <value>toolStrip1</value>
+  </data>
+  <data name="statusStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>984, 26</value>
+  </data>
+  <data name="buttonWCN.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
+        dAAAEnQB3mYfeAAAAgNJREFUOE+lkutLk2EYxvePhJaHShFBUTEPiCieQOmDiEZgrEbpYGiCQxkqA80I
+        RUkUEZ0YRMS+DDI70MkTmzJnDc8iU8QT2mAEItnle90wHwTDyBduXnie5/rd133Q4ZKfAJqHFs9E08A8
+        zD1emDpmYXjqRlnTFIrMk8iuGkNaxWekGEaQrHecBfw+/vPXODw6hj9whN2fh/Bt/8LSRgA3cxr/DeBZ
+        9kvmTNMoHGNbIrYN+3Aj23IxgJkpds0doP3VstgmsNexhutZ9QrAms8T0zYzU5xXM46kcjsmvfvoeL2i
+        AeoUgA07T8yaaZuZKab1rzN74jgys1YB2O2gmBZzH49LODXrrJlnzEzxe9cOLH1ziMioVgCOiuIFX0CE
+        Q+/WYf+yieiCFrRp9tkwxnP7Kt5MbKGm6wfC000KwDlTXNLgEvHMkh+Db32o7fYivtQm1l9+3IBOp5P7
+        yjYPwlKNCsAluWudxgvtknb5t9oWcL/VLU2Mvd2JFq3uqs7vAtE/ceNayiMF4KiYMSjmY2O7B4Ua+NaD
+        YQGEJumRbvyG1IcfBHI12aAAXM8R57aIWTNrLLY4tfNPiCvpR1SeVeu6WWzHFD6THSDwFMDdpmUG62NJ
+        PKM4Or9ZxBxb8H8l7g5CEu8pAOfM3WanSeeS8CFHxW4zM2umbWamOCShXAH+/wNOANABIDUxWnDPAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="weatherDay7.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>131, 261</value>
+  </data>
+  <data name="weatherDayMore6.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>973, 37</value>
+  </data>
+  <data name="&gt;&gt;buttonSearch.Name" xml:space="preserve">
+    <value>buttonSearch</value>
+  </data>
+  <data name="&gt;&gt;weatherDayMore8.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="weatherDayMore6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 535</value>
+  </data>
+  <data name="&gt;&gt;weatherDay2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonSearch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;weatherDay6.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;weatherDayMore6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>zh-CN</value>
+  </metadata>
+  <metadata name="toolStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="statusStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>127, 17</value>
+  </metadata>
+</root>
